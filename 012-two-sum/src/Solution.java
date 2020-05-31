@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Solution {
+    /** HashMap Solution, sacrificing memory for the sake of speed (about 2 ms runtime on leetcode) */
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int[] results = new int[2];
@@ -33,5 +34,20 @@ class Solution {
         }
 
         return results;
+    }
+
+    /** O(n^2) solution. Slow. About 147 ms runtime on leetcode */
+    public int[] twoSumBrute(int[] nums, int target) {
+        int[] solution = new int[2];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j =0 ; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target && i != j){
+                    solution[0] = i;
+                    solution[1] = j;
+                    break;
+                }
+            }
+        }
+        return solution;
     }
 }
