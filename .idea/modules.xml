@@ -3,6 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/001-first_non_repeating_character/001-first_non_repeating_character.iml" filepath="$PROJECT_DIR$/001-first_non_repeating_character/001-first_non_repeating_character.iml" />
+      <module fileurl="file://$PROJECT_DIR$/005-shuffle-array/005-shuffle-array.iml" filepath="$PROJECT_DIR$/005-shuffle-array/005-shuffle-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/006-kids-with-the-greatest-number-of-candies/006-kids-with-the-greatest-number-of-candies.iml" filepath="$PROJECT_DIR$/006-kids-with-the-greatest-number-of-candies/006-kids-with-the-greatest-number-of-candies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-longest-non-repeating-substring/007-longest-non-repeating-substring.iml" filepath="$PROJECT_DIR$/007-longest-non-repeating-substring/007-longest-non-repeating-substring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-SQL-select-second-highest-value-from-table/008-SQL-select-second-highest-value-from-table.iml" filepath="$PROJECT_DIR$/008-SQL-select-second-highest-value-from-table/008-SQL-select-second-highest-value-from-table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-longest-non-repeating-substring/008-SQL-select-second-highest-value-in-table.iml" filepath="$PROJECT_DIR$/007-longest-non-repeating-substring/008-SQL-select-second-highest-value-in-table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/009-lucky-number-in-array/009-lucky-number-in-array.iml" filepath="$PROJECT_DIR$/009-lucky-number-in-array/009-lucky-number-in-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/010-lucky-numbers-hard-codeingame/014-lucky-numbers-hard-codeingame.iml" filepath="$PROJECT_DIR$/010-lucky-numbers-hard-codeingame/014-lucky-numbers-hard-codeingame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/015-reverse-an-integer/015-reverse-an-integer.iml" filepath="$PROJECT_DIR$/015-reverse-an-integer/015-reverse-an-integer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/016-destination-city/016-destination-city.iml" filepath="$PROJECT_DIR$/016-destination-city/016-destination-city.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
     </modules>
   </component>
