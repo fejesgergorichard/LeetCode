@@ -18,7 +18,7 @@ Note:
 
 class Solution {
     public int numJewelsInStones(String J, String S) {
-        List<Character> jewels = new ArrayList<Character>();
+        HashSet<Character> jewels = new HashSet<Character>();
         int count = 0;
         // fill up a list for jewels
         for (char c: J.toCharArray()) {
