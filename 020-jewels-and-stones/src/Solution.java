@@ -17,7 +17,21 @@ Note:
 */
 
 class Solution {
+    /** using the indexOf() method and one for loop is the fastest solution */
     public int numJewelsInStones(String J, String S) {
+        int count = 0;
+        
+        // check if any character from 'S' is present in the jewels list
+        for (char c : S.toCharArray()) {
+            // indexOf returns -1 if the character is not found
+            if (J.indexOf(c) > -1) count++;
+        }
+        return count;
+    }
+
+
+    /** this method is O(n+m) */
+    public int numJewelsInStonesSet(String J, String S) {
         HashSet<Character> jewels = new HashSet<Character>();
         int count = 0;
         // fill up a list for jewels
