@@ -26,9 +26,11 @@ class TreeNode:
 class Solution:
     def constructMaximumBinaryTree(self, nums: List[int]) -> TreeNode:
         def construct(nums, left, right):
+            # If we have no more elements left (the L, R pointers overlap)
             if left == right:
                 return None
 
+            # Find the maximum and its index in the given L, R range
             maximum = float("-inf")
             maximumIndex = 0
             for i in range(left,right):
@@ -36,12 +38,15 @@ class Solution:
                     maximum = max(maximum, nums[i])
                     maximumIndex = i
 
+            # Assign a value to the node
             node = TreeNode(maximum)
 
-            if maximumIndex-left :
+            # If we're not on the left end of the array, construct a maxTree from the left side
+            if maximumIndex != left :
                 node.left = construct(nums, left, maximumIndex)
 
-            if right-maximumIndex :
+            # If we're not on the right end of the array, construct a maxTree from the right side
+            if maximumIndex != right :
                 node.right = construct(nums, maximumIndex+1, right)
 
             return node
